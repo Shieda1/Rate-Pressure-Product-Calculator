@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rate Pressure Product Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- radio -->
+  <input type="radio" id="ratepressureproductRadio" name="variables" checked>
+  <label for="ratepressureproductRadio">Rate-pressure product</label>
+
+  <input type="radio" id="maxheartrateRadio" name="variables">
+  <label for="maxheartrateRadio">Max heart rate</label>
+
+  <input type="radio" id="maxsystolicbloodpressureRadio" name="variables">
+  <label for="maxsystolicbloodpressureRadio">Max systolic blood pressure</label><br><br>
+  <!-- end radio -->
+  
+  <label for="v1" id="variable1">Max heart rate</label>
+  <input type="number" id="v1"><br><br>
+  
+  <label for="v2" id="variable2">Max systolic blood pressure</label>
+  <input type="number" id="v2"><br><br>
+
+  <button id="btn">compute</button>
+
+  <p id="result"></p>
+  <script src="app.js"></script>
+</body>
+</html>
